@@ -1,0 +1,23 @@
+body {
+  background-image: url(back.png);
+  background-size: cover;
+}
+
+p {
+  color: hsl(0, 84%, 29%);
+  border: 5px solid rgba(162, 54, 69, 0.5);
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: "Playfair Display";
+}
+img {
+  float: left; /*float used to fit the image into the location of the paragraph as mentioned above*/
+}
+footer {
+  clear: both;
+  color: yellow;
+  text-align: center;
+}
